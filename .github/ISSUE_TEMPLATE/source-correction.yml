@@ -1,0 +1,28 @@
+name: Source correction
+description: Report an inaccurate claim, broken source link or changed framework behavior.
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: Use public sources and omit confidential or personal information.
+  - type: input
+    id: page
+    attributes:
+      label: Study page
+      description: Link to the page or section that needs correction.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+      description: Describe the existing claim and the proposed correction.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Link to primary sources and include relevant version or date information.
+    validations:
+      required: true

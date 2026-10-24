@@ -1,0 +1,28 @@
+name: Study suggestion
+description: Propose a new study topic grounded in public research or documentation.
+title: "[Study] "
+body:
+  - type: markdown
+    attributes:
+      value: Suggest public learning material and use fictional examples where needed.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      description: Name the concept, method or research question.
+    validations:
+      required: true
+  - type: textarea
+    id: learning-value
+    attributes:
+      label: Learning goals
+      description: Who would benefit, and what should they understand after reading?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Link to papers, official documentation or maintained repositories.
+    validations:
+      required: true

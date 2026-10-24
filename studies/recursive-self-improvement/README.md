@@ -2,6 +2,8 @@
 
 Research checked: **24 October 2026**.
 
+[Repository home](../../README.md) · [Frameworks](frameworks.md) · [Exercise](experiment-design.md) · [Sources](reading-list.md) · [Glossary](glossary.md)
+
 A useful improvement loop collects evidence about failures, proposes a change, measures its consequences and retains the change only when it meets predeclared criteria. Repeating that process can improve an AI system without retraining its underlying model. The difficult part is establishing that the measured improvement represents better outcomes on new tasks.
 
 The appropriate starting point depends on what should improve: GEPA can optimize prompts or other text-defined artifacts, ReasoningBank develops experience memory, and DREAM-RSI improves an exploration policy. These mechanisms solve different problems. This guide summarizes public research and proposes educational experiments; it reports no integration or benchmark results.
@@ -12,6 +14,8 @@ The appropriate starting point depends on what should improve: GEPA can optimize
 2. Read the [framework comparison](frameworks.md) to distinguish DREAM-RSI, GEPA, Google ADK, ReasoningBank and AlphaEvolve.
 3. Work through the [hypothetical experiment](experiment-design.md) to practice defining datasets, metrics and candidate comparisons.
 4. Use the [annotated reading list](reading-list.md) to study the original methods and revisit implementation details.
+
+Use the [glossary](glossary.md) whenever a term is unfamiliar. By the end, you should be able to identify what an improvement loop changes, design a fair comparison, and explain why validation gains can fail to generalize.
 
 ## What changes between iterations
 
